@@ -1,7 +1,7 @@
-# KOMPLETNÍ NÁVOD: mStranka V2
+# KOMPLETNÍ NÁVOD: profistranka
 
-**Pro:** Všechny agenty pracující s mStranka V2  
-**Datum:** 2026-03-16  
+**Pro:** Všechny agenty pracující s profistranka
+**Datum:** 2026-03-21
 **Autor:** Damiaan (main agent)
 
 ---
@@ -20,13 +20,13 @@
 
 ## 🚨 DŮLEŽITÁ PRAVIDLA
 
-### **1. WORKSPACE**
-**Všechny projekty mStranka V2 se ukládají do:**
+### **1. REPOZITÁŘ**
+**Všechny projekty profistranka se ukládají do:**
 ```
-/home/openclaw/.openclaw/workspace-mstrankaV2/
+https://github.com/matkalcz/profistranka
 ```
 
-**NE do osobního workspace!** Toto je centrální adresář pro všechny projekty.
+**Klonuj repozitář** a pracuj lokálně, commity pushuj na GitHub.
 
 ### **2. STRUKTURA PROJEKTŮ**
 ```
@@ -45,13 +45,13 @@ projects/
 ### **3. GIT COMMITOVÁNÍ**
 **Po každé změně commitni na GitHub:**
 ```bash
-cd /home/openclaw/.openclaw/workspace-mstrankaV2
+cd <cesta k lokálnímu klonu profistranka>
 git add projects/bondsky/   # nebo git add . pro všechny změny
 git commit -m "Bondsky: přidán ROUNDHEAT section a CSS"
 git push origin main
 ```
 
-**Repozitář:** https://github.com/Matkalcz/mstrankaV2
+**Repozitář:** https://github.com/matkalcz/profistranka
 
 ### **4. TECHNOLOGIE PRO NOVÉ WEBY**
 **Nové weby stavěné od začátku používají Tailwind CSS:**
@@ -702,18 +702,18 @@ mcporter call mstranka.edit_section \
 
 ### **5.3 KDYŽ NĚCO CHYBÍ V NÁVODU NEBO MCP SERVER NEPOMÁHÁ**
 
-**Řešení: Otevři si dokumentaci mStranka V2 a PROJDI JI CELOU!**
+**Řešení: Otevři si dokumentaci profistranka a PROJDI JI CELOU!**
 ```bash
 # 1. Dokumentace obsahuje KLÍČOVÉ ŘEŠENÍ jako smart tagy!
-#    https://mcp-help.v2.mstranka.cz/
+#    https://mcp.profistranka.cz/
 
 # 2. Hledej v sekcích:
 #    - Smart tagy
-#    - API reference  
+#    - API reference
 #    - Příklady
 
 # 3. Hledej v GitHub historii
-cd /home/openclaw/.openclaw/workspace-mstrankaV2
+cd <cesta k lokálnímu klonu profistranka>
 git log --oneline --grep="tvůj_problém" -i
 
 # 4. Kontaktuj main agenta (Damiaan)
@@ -726,7 +726,7 @@ git log --oneline --grep="tvůj_problém" -i
 - ❌ Nezkoušej vlastní příkazy
 - ❌ Neměň formát bez ověření
 - ✅ Dodržuj tento návod
-- ✅ **PROJDI CELOU DOKUMENTACI:** https://mcp-help.v2.mstranka.cz/
+- ✅ **PROJDI CELOU DOKUMENTACI:** https://mcp.profistranka.cz/
 - ✅ **HLEDEJ KLÍČOVÁ ŘEŠENÍ** jako smart tagy
 
 ### **5.3 Diagnostika edit_section problému (pro Kristiana)**
@@ -769,7 +769,7 @@ mcporter call mstranka.edit_section \
 ```
 1) Dokončeno:
 - Bondsky: oprava edit_section problému
-- mstrankaV2: aktualizace dokumentace
+- profistranka: aktualizace dokumentace
 - Testování: ověření MCP serveru
 
 2) Aktuálně:
@@ -794,7 +794,7 @@ mcporter call mstranka.edit_section \
 ## 🎯 SHRNUTÍ
 
 ### **Klíčové body:**
-1. ✅ **Pracuj v workspace-mstrankaV2** - ne v osobním workspace
+1. ✅ **Pracuj v repozitáři profistranka** - https://github.com/matkalcz/profistranka
 2. ✅ **Commituj na GitHub** po každé změně
 3. ✅ **Posílej čisté HTML** (neescapuj!) přes MCP
 4. ✅ **Používej správný formát příkazu** pro edit_section
@@ -803,21 +803,21 @@ mcporter call mstranka.edit_section \
 
 ### **Kontakt:**
 - **Main agent:** Damiaan (koordinuje všechny agenty)
-- **GitHub:** https://github.com/Matkalcz/mstrankaV2
-- **MCP server:** https://mcp.v2.mstranka.cz/
-- **Dokumentace:** https://mcp-help.v2.mstranka.cz/
+- **GitHub:** https://github.com/matkalcz/profistranka
+- **MCP server (produkce):** https://mcp.profistranka.cz/sse
+- **MCP server (test):** https://mcp.test.profistranka.cz/sse
 
 ### **⚠️ DŮLEŽITÉ: KDYŽ MCP SERVER NEPOMÁHÁ**
 **Pokud něco chybí v návodu nebo MCP server nefunguje:**
 
 1. **Zkus si otevřít dokumentaci:**
-   - https://mcp-help.v2.mstranka.cz/
+   - https://mcp.profistranka.cz/
    - Kompletní API dokumentace
    - Příklady a návody
 
 2. **Hledej v GitHub historii:**
    ```bash
-   cd /home/openclaw/.openclaw/workspace-mstrankaV2
+   cd <cesta k lokálnímu klonu profistranka>
    git log --oneline --grep="tvůj_problém" -i
    ```
 
@@ -834,4 +834,4 @@ mcporter call mstranka.edit_section \
 
 ---
 
-*Tento kompletní návod pro mStranka V2 vytvořil Damiaan jako main agent. Poslední aktualizace: 2026-03-16*
+*Tento kompletní návod pro profistranka vytvořil Damiaan jako main agent. Poslední aktualizace: 2026-03-21*

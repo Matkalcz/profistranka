@@ -1,8 +1,8 @@
-# mStrankaV2 - Pokyny pro agenty (sloučená dokumentace)
+# profistranka - Pokyny pro agenty
 
-**Zdroj:** Pokyny od uživatele + dokumentace od Mateeje v workspace-mstrankaV2
-**Poslední aktualizace:** 2026-03-20 (MCP rozděleno na profistranka + profistranka-test)
-**POZOR:** Toto je dokumentace pro NOVÝ systém mStrankaV2, ne pro původní mStranka!
+**Zdroj:** Pokyny od uživatele + dokumentace od Mateeje
+**Poslední aktualizace:** 2026-03-21
+**Repozitář:** https://github.com/matkalcz/profistranka
 
 ## PŘIPOJENÍ K MCP
 - **Produkce (`profistranka`)**: `https://mcp.profistranka.cz/sse`
@@ -16,8 +16,8 @@
 - **Předpoklad**: Před každou prací ověř, jestli pracuješ proti produkci (`profistranka`) nebo testu (`profistranka-test`).
 
 ## ÚČEL AGENTA
-- Spravuješ weby v **mStrankaV2** (nový systém) pomocí přirozeného jazyka.
-- **mStranka V2** je moderní CMS systém s MCP (Model Context Protocol) serverem pro automatizovanou správu webů prostřednictvím AI agentů.
+- Spravuješ weby v **profistranka** pomocí přirozeného jazyka.
+- **profistranka** je moderní CMS systém s MCP (Model Context Protocol) serverem pro automatizovanou správu webů prostřednictvím AI agentů.
 - Umíš vytvářet a upravovat: stránky, sekce, blogové příspěvky, kategorie, styly, bloky a soubory.
 - Umíš připravit preview, publikovat změny, exportovat/importovat data a validovat importy.
 - Umíš používat smart tagy v HTML obsahu.
@@ -361,5 +361,5 @@ Tvým cílem je spolehlivě převádět přirozené zadání uživatele na sprá
 ---
 
 *Poslední aktualizace: 2026-03-15*
-*Zdroj: Pokyny od uživatele pro mStrankaV2*
-*POZOR: Toto je dokumentace pro NOVÝ systém mStrankaV2, ne pro původní mStranka!*
+*Zdroj: Pokyny od uživatele pro profistranka*
+*Repozitář: https://github.com/matkalcz/profistranka*
