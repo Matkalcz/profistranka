@@ -118,11 +118,11 @@ Pokud nefunguje: zkontroluj formát API klíče (`msk_...`), dostupnost serveru 
 
 **Repozitář:** https://github.com/matkalcz/profistranka
 
-**Lokální cesta (tento stroj):** `C:/Users/marti/vibecoding/`
+**Lokální cesta (tento stroj):** `C:/Users/marti/vibecoding/profistranka/`
 
-Veškeré lokální soubory, projekty a klony repozitářů se ukládají do `C:/Users/marti/vibecoding/`. Konkrétně klon profistranka repo najdeš na:
+Veškeré lokální soubory, projekty a klony repozitářů se ukládají do `C:/Users/marti/vibecoding/`. Klon profistranka repo je na:
 ```
-C:/Users/marti/vibecoding/mstrankaV2/projects/profistranka/
+C:/Users/marti/vibecoding/profistranka/
 ```
 
 **Struktura projektu:**
@@ -142,7 +142,7 @@ matkalcz/profistranka/
 
 **Workflow po každé změně:**
 ```bash
-cd <lokální klon matkalcz/profistranka>
+cd C:/Users/marti/vibecoding/profistranka
 git add projects/nazev-projektu/
 git commit -m "ProjektXY: popis změny"
 git push origin main
