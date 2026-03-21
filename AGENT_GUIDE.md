@@ -118,6 +118,13 @@ Pokud nefunguje: zkontroluj formát API klíče (`msk_...`), dostupnost serveru 
 
 **Repozitář:** https://github.com/matkalcz/profistranka
 
+**Lokální cesta (tento stroj):** `C:/Users/marti/vibecoding/`
+
+Veškeré lokální soubory, projekty a klony repozitářů se ukládají do `C:/Users/marti/vibecoding/`. Konkrétně klon profistranka repo najdeš na:
+```
+C:/Users/marti/vibecoding/mstrankaV2/projects/profistranka/
+```
+
 **Struktura projektu:**
 ```
 matkalcz/profistranka/
